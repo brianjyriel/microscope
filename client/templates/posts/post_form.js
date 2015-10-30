@@ -10,7 +10,7 @@ Template.postForm.events({
     var title = event.target.title.value;
     var url = event.target.url.value;
 
-    Meteor.call("addPost", title, url);
+    Meteor.call("addPost", title, url, template);
   }
 
 });
