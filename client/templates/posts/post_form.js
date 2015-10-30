@@ -6,6 +6,7 @@ Template.postForm.events({
     //stop the form from submitting
     event.preventDefault();
 
+    //implemented variables to hold title and url for method call
     var title = event.target.title.value;
     var url = event.target.url.value;
 
