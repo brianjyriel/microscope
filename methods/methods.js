@@ -7,7 +7,6 @@ Meteor.methods({
       url: url
     });
 
-    template.find("form").reset();
   }
 
 });
